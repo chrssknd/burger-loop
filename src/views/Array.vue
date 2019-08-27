@@ -11,12 +11,12 @@
                 <template slot="desc">
                    <p>
                         <b>Lass uns ein paar Burger bestellen!</b> <br>
-                       Im BurgerLoop geht eine <code>order</code> nach der anderen zu den hungrigen customers. Um das Magenknurren so schnell wie möglich zu stoppen sollten wir eine effiziente Bestellliste führen. So können wir orders überprüfen, ändern und bei Änderungen bearbeiten. 
+                       Im BurgerLoop geht eine <code>order</code> nach der anderen zu den hungrigen <code>customers</code>. Um das Magenknurren so schnell wie möglich zu stoppen sollten wir eine effiziente Bestellliste führen. So können wir <code>orders</code> überprüfen, ändern und bei Änderungen bearbeiten. 
                     </p>
                     
                    <p>
                         <b>„Waren es jetzt drei Cheeseburger oder doch der Milkshake?“</b> <br>
-                      Damit Fragen wie diese beantworter werden können brauchen wir einen direkten Zugriff auf die einzelnen Elemente einer Bestellung. 
+                      Damit Fragen wie diese beantwortet werden können brauchen wir einen direkten Zugriff auf die einzelnen Elemente einer Bestellung. 
                         Mittel <code>arrays</code> lassen sich Werte eines Typs in Reihung einzelner Felder unterbringen. Hier sind nun die Werte in bestimmten Felder gespeichert, welche durch einen Indizes adressiert sind. Der Indizes in einem <code>array</code> beginnt immer bei <code>0</code> und endet mit der Anzahl der implementierten Felder. Die geordnete Liste, welche das <code>array</code>  abbildet, lässt sich anhand der Indizes durchlaufen und so kann mittels Zugriffsoperatoren die Werte in den Feldern dahinter ausgelesen werden. 
                         Die Länge eines <code>arrays</code>  kann nach seiner Erstellung nicht mehr verändert werden. Also erst denken, dann coden.
                   </p>
@@ -25,8 +25,8 @@
                   </p>
                   
                   <p>
-                  <b>„Waren es jetzt drei Cheeseburger oder doch der Milkshake?“</b> <br>
-                  In unserem Beispiel beinhaltet die erste <code>order</code> einen <code>Cheeseburger</code>, einen <code>Double-Cheeseburger</code> und einen <code>Hamburger</code>. Wenn unser <code>customer</code> nun wissen möchte, was er denn als zweites Bestellt hat, durchlaufen wir das <code>array</code> und lesen den Inhalt des zweiten Feldes aus – Indizies beginnen bei <code>0</code>, deshalb ist das gesuchte Feld beim Index <code>1</code>. Wir schauen also noch was bei <code>order[1]</code> ausgegeben wird. Hier unser <code>Double-Cheeseburger</code>. Danke und guten Appetit!
+                  <b>„Was hatte ich nochmal als erstes?“</b> <br>
+                  In unserem Beispiel beinhaltet die erste <code>order</code> einen <code>Cheeseburger</code>, einen <code>Double-Cheeseburger</code> und einen <code>Hamburger</code>. Wenn unser <code>customer</code> nun wissen möchte, was er denn als zweites bestellt hat, durchlaufen wir das <code>array</code> und lesen den Inhalt des zweiten Feldes aus – Indizies beginnen bei <code>0</code>, deshalb ist das gesuchte Feld beim Index <code>1</code>. Wir schauen also noch was bei <code>order[1]</code> ausgegeben wird. Hier unser <code>Double-Cheeseburger</code>. Danke und guten Appetit! <br>
                     Lass die <code>customers</code> nicht warten und versuch dich bei der Implementierung des <code>order-arrays!</code>
                  </p>
                 </template>

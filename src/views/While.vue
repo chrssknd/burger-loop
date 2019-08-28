@@ -131,16 +131,17 @@
                     [ 'bottomBun', 'patty', 'salad', 'tomatoes', 'cheese1', 'cheese2', 'sauce', 'topBun' ],
                 ],
                 exercise: [
-                    ["$hotCount", "$hotCount", "$hotCount", "$hotCount", "=", "=", "=", "=", 
-                    ";", ";", ";", ";", "add", "add", "add","add", "Base",  "jalapenos",  
-                    "sauce", "topBun",  ")", ")", ")", ")",  "while(",  "=", "=", "=", "=",
-                    "+1", 2, 1, "{", "{", "{", "{", "}", "}", "}", "}"]
+                    ["$hotCount", "=", "0", ";", "$recipe", "==", "'Cheeseburger'", "{", "add(", "base", ");", "while", "(", "$hotCount", "<", 
+                    "3", ")", "{", "add(", "jalapenos", ");", "$hotCount", "=", "$hotCount", "+", "1", ";", 
+                    "}", "}",  "$recipe", "==", "'Hamburger'", "{", "add(", "base", ");", "while", "(", "$hotCount", "<", 
+                    "2", ")", "{", "add(", "jalapenos", ");", "$hotCount", "=", "$hotCount", "+", "1", ";", 
+                    "}", "}", ]
                 ],
                 people: [ "chef" ]
             }
         }
     }
 </script>
-
+"
 <style lang="scss" scoped>
 </style>

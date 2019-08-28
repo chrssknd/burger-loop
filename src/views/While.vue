@@ -45,9 +45,9 @@
                         Im <code>BurgerLoop</code>  gibt es seit neustem ein Special auf der Karte: feurig scharfe Burger. Dabei kann jeder bereits existierende Burger mit <code>jalapenos</code>  belegt werden. Es gibt verschiedene Schärfegrade von <code>0</code>  bis <code>3</code>. Wie in unserer Lektion davor sollst du nun die <code>burger</code>  mit den feurig scharfen jalapenos</code>  belegen, bis der gewünschte Schärfegrad erreicht ist. Nutze dazu die <code>while</code> -Schleife. 
                        
                     </p>
-                    <p> <b> „Einen Cheeseburger doppelt scharf und einen Hamburger leicht scharf!“ </b>
+                    <p> <b> „Einen Cheeseburger doppelt scharf und einen Hamburger leicht scharf!“ </b> <br>
                     
-                    Die Bestellung ist da, ran an die <code>burger</code>! Doppelter Schärfegrad steht für 2, leicht ist die 1. Nutze für den Schärfegrad den Codebaustein <code>hotCount</code>. Die <code>Base</code>  kommt wieder zuerst, dann wird’s scharf. Bevor der <code>burger</code>  raus geht solltest du noch <code>sauce</code>  und den <code>topBun</code>  hinzufügen. Jetzt beeil dich, die Kunden haben Hunger! 
+                    Die Bestellung ist da, ran an die <code>burger</code>! Doppelter Schärfegrad steht für 2, leicht ist die 1. Nutze für den Schärfegrad den Codebaustein <code>hotCount</code> und füge dem <code>burger</code> für einen Schärfegrad mehr immer eine Portion <code>jalapenos</code> zu. Die <code>Base</code> kommt allerdings wieder zuerst, dann wird’s erst scharf. Bevor der <code>burger</code>  raus geht solltest du noch <code>sauce</code>  und den <code>topBun</code>  hinzufügen. Jetzt beeil dich, die Kunden haben Hunger! 
                     </p>
                     
                 </template>

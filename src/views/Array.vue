@@ -44,7 +44,7 @@
                     <p>
                         Welch‘ ein Chaos, wenn wir die <code>order</code> nur auf einen Zettel geschrieben hätten. Versuche die <code>order</code> deshalb in den <code>array</code> einzupflegen. Nutze dazu die vorgefertigten Codebausteine aber pass auf, nicht jeder Baustein gehört in jede Bestellung!
                     </p>
-                    <p><b>„Entschuldigung, welchen Burger hatte ich als erstes bestellt?“</b>
+                    <p><b>„Entschuldigung, welchen Burger hatte ich als erstes bestellt?“</b> <br>
                         Gib dem Kunden die Antwort auf seine Frage indem du den Index des Feldes im <code>array</code> ausgeben lässt, den dir der Kunde zuerst genannt hat.
                     </p>
                 </template>
@@ -95,8 +95,7 @@
                     [],
                 ],
                 exercise: [
-                    [ "Double-Cheeseburger", "Hamburger", "Hamburger", "Coke", "Cheeseburger", "Milkshake", "Orange-Juice", "Small Fries", "Medium Fries", "$order=[", ",", ",", ",", ",", ";", ";", ";", ";", "echo", "$order=[2", "$order[0]", "];" ]
-                ],
+                    [ "$order", "=", "[", ""Double-Cheeseburger"", ",", ""Coke"", ",", ""Hamburger"", ",", ""Milkshake"", ",", "];", "echo", "$order[", "0", "]", ";"  ],
                 people: [ "barkeeper" ]
             }
         }

@@ -53,7 +53,7 @@ Es wird immer komplizierter. Nachdem du nun fleißig beim Belegen der <code>burg
                     <b> „Hamburger, zwei Mal den Cheeseburger, einen Double-Cheeseburger und den Red-Hot-Chili-Burger!“ </b>
                     </p>
                     <p>
-                    Versuche dich mit Hilfe der Codebausteine an einer <code>for</code> -Schleife zur Burger-Koordination!
+                    Versuche dich mit Hilfe der Codebausteine zunächst an der Implementierung des <code>order-arrays</code> und dann an einer <code>for</code> -Schleife zur Burger-Koordination!
                     </p>
                 </template>
             </Layout>
@@ -136,10 +136,8 @@ Es wird immer komplizierter. Nachdem du nun fleißig beim Belegen der <code>burg
                     [],
                 ],
                 exercise: [
-                    [ "$order=[", "];", "“Cheeseburger“", "“Cheeseburger“", "“Hamburger“", 
-                    "“Double-Cheeseburger“", "“Red-Hot-Chili-Burger“", ",", ",", ",", ",", ";",
-                    ";", ";", ";", "{", "}", "for(", "$burgerIndex", "$burgerIndex", "$burgerIndex", "$burgerIndex", 
-                    "=", "=", "count", "($order)",  "($burger)", "++",  "$burger",  "$order",  "[$burgerIndex];", "make("]
+                    ["$order", "=", "[", ""Hamburger"", ",", ""Cheeseburger"", ",", "Cheeseburger"", ",", ""Double-Cheeseburger"", ",", ""Red-Hot-Chili-Burger"", ",", "];", 
+                    "for", "(", "$orderIndex", "=", "0", ";", "$orderIndex", "<", "count", "(", "$order", ")", ";", "$orderIndex", "++", ")", "{", "$burger", "=", "$order", "[", "$orderIndex", "];”, "make(", "$burger", ");", "}"]
                 ],
                 people: [ "barkeeper" ]
             }

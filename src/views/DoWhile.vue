@@ -37,7 +37,7 @@
               Nur für die richtig harten gibt es den Schärfsten unter unseren Burgern: den <code>redHotChilliBurger</code>. Um richtig scharfe <code>burger</code>  zu belegen müssen wir unsere <code>while</code> -Schleife zu einer <code>do-while</code> -Schleife abändern. 
              
                     </p>
-                    <p> <b> „Einmal den Red-Hot-Chili-Burger, aber pronto!“ </b>
+                    <p> <b> „Einmal den Red-Hot-Chili-Burger, aber pronto!“ </b> <br>
                    Und los geht‘s! Der <code>redHotChiliBurger</code>  hat den Schärfegrad 3. Zusätzlich zu den <code>jalapenos</code>  bekommt er noch <code>redChilis</code>  und <code>cheese</code>  oben drauf. Versuche dich mit der <code>do-while</code> -Schleife und baue auf Grundlage der normalen <code>Base</code>  den <code>redHotChiliBurger</code>  zusammen. Nutze dazu wieder unseren <code>hotCount</code>. 
                    </p>
                   
@@ -109,9 +109,7 @@
                     [ 'bottomBun', 'patty', 'salad', 'tomatoes', 'cheese1', 'cheese2', 'cheese3', 'sauce', 'topBun' ],
                 ],
                 exercise: [
-                    [ "$hotCount",  "$hotCount",  "$hotCount",  "$hotCount", "=", "=", "=", "=", ";", ";", ";", ";", "add(",
-                    "add(", "add(", "add(", "Base",  "jalapenos",  "sauce", "topBun", "cheese",  "redChilis", ")", ")", ")", 
-                    ")", "while(", 2, 3]
+                    [ "$hotCount", "=", "0", ";", "$recipe", "==", "redHotChiliBurger", "{", "do", "{", "add(", "jalapenos", ")", ";", "$hotCount", "++", ";", "}", "while", "(", "$hotCount", "<", "4", ")", "add(", "redChilis", ")", "add(", "topBun", ")", "}", "}" ]
                 ],
                 people: [ "chef" ]
             }

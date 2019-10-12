@@ -97,12 +97,7 @@ Es wird immer komplizierter. Nachdem du nun fleißig beim Belegen der <code>burg
                     '// Guten Appetit!'
                 ],
                 animation: [
-                    [0, 0, 0, ''],
-                    [0, 0, 0, 'TBD Edited'],
-                    [0, 0, 0, 'TBD Edited'],
-                    [0, 0, 0, 'TBD Edited'],
-                    [0, 0, 0, 'TBD Edited'],
-                    [0, 0, 0, 'TBD Edited'],
+                    [0, 0, 0, '']
                     [0, 0, 0, 'Da hat jemand Hunger. 3 Cheeseburger!'],
                     [0, 0, 0, 'So einen repetitiven Task können wir vereinfachen.'],
                     [2, 0, 0, 'Applaus für die "For"-Schleife!'],

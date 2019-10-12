@@ -94,9 +94,28 @@ Naja dann lass die <code>fries</code> weg aber gibt mir zur <code>coke</code> no
                     '// - Props gehen raus für den Joke!',
                 ],
                 animation: [
-                    [0, 0, 0, 'TBD'],
-                    [0, 0, 0, 'TBD'],
-                    [0, 0, 0, 'TBD']
+                    [0, 0, 0, 'Und los! Nimm schnell die Bestellung auf!'],
+                    [0, 1, 0, 'Die Bestellung beinhaltet:'],
+                    [3, 0, 0, '1 x Cheeseburger']
+                    [4, 0, 0, '1 x Double-Cheeseburger']
+                    [5, 0, 0, '...und noch 'n Hamburger']
+                    [5, 0, 0, 'Lecker!']
+                    [5, 1, 0, 'Um die Bestellung jetzt an die Küche zu geben...']
+                    [2, 0, 0, '...verwendest du einfach den Array']
+                    [3, 2, 0, 'Cheeseburger beginnt mit Index 0']
+                    [4, 2, 0, 'Hier dann Index 1']
+                    [5, 2, 0, '...und so weiter']
+                    [5, 2, 0, 'Perferkt!']
+                    [5, 2, 0, 'Jetzt ist alles drin.']
+                    [8, 0, 0, 'Oh!']
+                    [8, 3, 0, 'Da hat es jemand wohl vercheckt.']
+                    [9, 0, 0, 'Für uns aber kein Problem!']
+                    [9, 0, 0, 'Wie gerade gelernt...']
+                    [11, 0, 0, 'Einfach auslesen!']
+                    [13, 2, 0, 'Kein Ding für 'n King!']
+                    [16, 0, 0, 'Darf es noch etwas sein?']
+                    
+                 
                 ],
                 burgerAnimation: [
                     [],
